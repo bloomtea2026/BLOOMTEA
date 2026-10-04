@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact BLOOMTEA Floral Tea." />
+  <title>Contact — BLOOMTEA</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="contact-page">
+  <div class="petals" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="mini-brand" href="index.html"><img src="assets/logo.jpeg" alt="BLOOMTEA logo" /></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="flavors.html">Flavours</a>
+      <a class="active" href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="contact-main">
+    <section class="contact-intro reveal">
+      <span class="eyebrow">LET'S CONNECT</span>
+      <h1>We'd love to <em>hear from you.</em></h1>
+      <p>Questions, feedback or simply want to say hello? Send us a message directly.</p>
+      <div class="contact-details">
+        <a href="tel:+919979695794"><span>CALL</span> +91 99796 95794</a>
+        <a href="mailto:bloomtea030@gmail.com"><span>EMAIL</span> bloomtea030@gmail.com</a>
+      </div>
+    </section>
+
+    <section class="contact-card reveal delay-1">
+      <div class="card-top"><span>FEEDBACK / MESSAGE</span><span>01 — 03</span></div>
+      <form id="feedbackForm">
+        <label>Your name<input id="name" name="name" type="text" placeholder="Your name" required /></label>
+        <label>Your email<input id="email" name="email" type="email" placeholder="you@example.com" required /></label>
+        <label>Your message<textarea id="message" name="message" rows="6" placeholder="Tell us what you think..." required></textarea></label>
+        <button class="gold-button" type="submit">Send feedback <span>→</span></button>
+        <p class="form-note">Your email app will open with the message addressed to bloomtea030@gmail.com.</p>
+      </form>
+    </section>
+  </main>
+
+  <div id="sentNotice" class="toast" role="status">Opening your email app…</div>
+  <footer><span>© 2026 BLOOMTEA Floral Tea</span><span>Made with nature in mind.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
